@@ -76,6 +76,9 @@ switch (dayOfWeek){
 let grade = 90;
 
 switch (true){
+    case grade === 100:
+        console.log("You are a nerd! A*");
+        break;
     case grade >= 90:
         console.log("You got a A");
         break;

@@ -29,6 +29,6 @@ newPerson.favouriteFood = "Gyros";
 console.log(newPerson);
 
 delete newPerson.favouriteDay; 
-delete newPerson.favouriteNumber;
+newPerson.favouriteNumber = (newPerson.favouriteNumber * 2);
 
 console.log(newPerson);
