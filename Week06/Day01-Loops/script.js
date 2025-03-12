@@ -47,14 +47,28 @@
 //     x++;
 // }
 
-const user = {
-    name: "John",
-    age: 50,
-    isAdmin: true,
+// const user = {
+//     name: "John",
+//     age: 50,
+//     isAdmin: true,
+// };
+
+// for (info in user){
+//     if (info === "age"){
+//         console.log(user[info]);
+//     }
+// };
+
+const myFavNumbers = {
+    23: "My Birthday",
+    27: "House number",
+    29: "My Age",
 };
 
-for (info in user){
-    if (info === "age"){
-        console.log(user[info]);
-    }
+let total;
+
+for (num in myFavNumbers){
+    total += num;
 };
+
+console.log(total);
