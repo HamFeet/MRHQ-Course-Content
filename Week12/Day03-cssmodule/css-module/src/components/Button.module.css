@@ -1,0 +1,11 @@
+@value primary: red;
+
+.button{
+    color: primary;
+}
+.link{
+    background-color: purple;
+}
+:global(.global-class){
+    color: black;
+}

@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import './App.css'
-import ToggleButton from './components/toggleButton';
+import ToggleButton from './components/ToggleButton';
 
 function App() {
   // let counter = 0;

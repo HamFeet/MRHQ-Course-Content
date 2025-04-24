@@ -1,0 +1,10 @@
+.imagePublic{
+    background-image: url("/dog-public.jpg");
+    height: 20rem;
+    background-size: cover;
+}
+.imageSrc{
+    background-image: url("../assets/dog-src.jpg");
+    height: 20rem;
+    background-size: cover;
+}
